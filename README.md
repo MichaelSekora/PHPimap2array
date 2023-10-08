@@ -3,7 +3,14 @@ authenticates via XOAUTH2 , retrieves mails using IMAP and parses the entire mes
 At this point the XOAUTH2 authentication is implemented only for outlook-accounts.
 Please follow the procedure that Microsoft provides to create client-credentials on Azure.
 
-usage:
+## INSTALLATION
+include the class in your php-code 
+```php 
+include_once "PHPimap2array.php";
+```
+
+## USAGE
+```php
 <?php
 include_once "PHPimap2array.php";
 
@@ -45,4 +52,9 @@ if ($last_uid == false)
 $mail_structured = $objPHPimap2array->message_to_array($last_uid);
 print_r($mail_structured);
 ?>
+```
+
+###
+###
+###
 
