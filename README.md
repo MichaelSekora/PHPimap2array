@@ -1,6 +1,6 @@
 # PHPimap2array
-Authenticates via XOAUTH2 , retrieves mails using IMAP and parses the entire message into an array.  
-At this point, authentication is implemented only for Outlook-Accounts.  
+Authenticates via XOAUTH2 , retrieves mails using IMAP and parses the entire message into a structured array.  
+At this point, authentication is implemented for Outlook-Accounts only.  
 Please follow the procedure that Microsoft provides to create client-credentials on Azure.
 
 ## INSTALLATION
