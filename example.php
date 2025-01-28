@@ -37,16 +37,16 @@ if ($last_uid == false)
 
 ////////////////////////////////////////////////////////////////////////////////////
 // retrieve a list of UID (array)
-$uid_list = $obj1->uid_list()
+$uid_list = $obj1->uid_list();
 
 ////////////////////////////////////////////////////////////////////////////////////
 // retrieve the (unfolded) header (string)
-$unfolded_header_arr = $obj1->get_unfolded_header_from_uid($uid)
+$unfolded_header_arr = $obj1->get_unfolded_header_from_uid($uid);
 
 ////////////////////////////////////////////////////////////////////////////////////
 // retrieve the header in json-format (string)
-$convert_header_to_lowercase=true
-$header_json = $obj1->get_header_from_uid_in_json($uid, $convert_header_to_lowercase)
+$convert_header_to_lowercase=true;
+$header_json = $obj1->get_header_from_uid_in_json($uid, $convert_header_to_lowercase);
 
 ////////////////////////////////////////////////////////////////////////////////////
 // retrieve the (unfolded) header with keys (array)
